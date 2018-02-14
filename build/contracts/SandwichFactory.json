@@ -1,0 +1,721 @@
+{
+  "contractName": "SandwichFactory",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "eatSandwich",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b61047d8061001e6000396000f300606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063db8c5eb414610046575b600080fd5b341561005157600080fd5b6100676004808035906020019091905050610069565b005b60006100736102f2565b60008381548110151561008257fe5b906000526020600020906002020191506040805190810160405280600681526020017f456174656e2100000000000000000000000000000000000000000000000000008152508260010190805190602001906100df929190610318565b506000600184018154811015156100f257fe5b9060005260206000209060020201604080519081016040529081600082018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101a45780601f10610179576101008083540402835291602001916101a4565b820191906000526020600020905b81548152906001019060200180831161018757829003601f168201915b50505050508152602001600182018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102465780601f1061021b57610100808354040283529160200191610246565b820191906000526020600020905b81548152906001019060200180831161022957829003601f168201915b50505050508152505090506040805190810160405280600681526020017f456174656e2100000000000000000000000000000000000000000000000000008152508160200181905250806000600185018154811015156102a257fe5b906000526020600020906002020160008201518160000190805190602001906102cc929190610398565b5060208201518160010190805190602001906102e9929190610398565b50905050505050565b6040805190810160405280610305610418565b8152602001610312610418565b81525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061035957805160ff1916838001178555610387565b82800160010185558215610387579182015b8281111561038657825182559160200191906001019061036b565b5b509050610394919061042c565b5090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103d957805160ff1916838001178555610407565b82800160010185558215610407579182015b828111156104065782518255916020019190600101906103eb565b5b509050610414919061042c565b5090565b602060405190810160405280600081525090565b61044e91905b8082111561044a576000816000905550600101610432565b5090565b905600a165627a7a72305820347259237ff9b1053dbf482ee4bdc5f1dc28f75592ce8306ab6bcef96c91e3380029",
+  "deployedBytecode": "0x606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063db8c5eb414610046575b600080fd5b341561005157600080fd5b6100676004808035906020019091905050610069565b005b60006100736102f2565b60008381548110151561008257fe5b906000526020600020906002020191506040805190810160405280600681526020017f456174656e2100000000000000000000000000000000000000000000000000008152508260010190805190602001906100df929190610318565b506000600184018154811015156100f257fe5b9060005260206000209060020201604080519081016040529081600082018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101a45780601f10610179576101008083540402835291602001916101a4565b820191906000526020600020905b81548152906001019060200180831161018757829003601f168201915b50505050508152602001600182018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102465780601f1061021b57610100808354040283529160200191610246565b820191906000526020600020905b81548152906001019060200180831161022957829003601f168201915b50505050508152505090506040805190810160405280600681526020017f456174656e2100000000000000000000000000000000000000000000000000008152508160200181905250806000600185018154811015156102a257fe5b906000526020600020906002020160008201518160000190805190602001906102cc929190610398565b5060208201518160010190805190602001906102e9929190610398565b50905050505050565b6040805190810160405280610305610418565b8152602001610312610418565b81525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061035957805160ff1916838001178555610387565b82800160010185558215610387579182015b8281111561038657825182559160200191906001019061036b565b5b509050610394919061042c565b5090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103d957805160ff1916838001178555610407565b82800160010185558215610407579182015b828111156104065782518255916020019190600101906103eb565b5b509050610414919061042c565b5090565b602060405190810160405280600081525090565b61044e91905b8082111561044a576000816000905550600101610432565b5090565b905600a165627a7a72305820347259237ff9b1053dbf482ee4bdc5f1dc28f75592ce8306ab6bcef96c91e3380029",
+  "sourceMap": "26:1210:1:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:1210:1:-;;;;;;;;;;;;;;;;;;;;;;;;142:1092;;;;;;;;;;;;;;;;;;;;;;;;;;;465:27;787:31;;:::i;:::-;495:10;506:6;495:18;;;;;;;;;;;;;;;;;;;;465:48;;619:28;;;;;;;;;;;;;;;;;;:10;:17;;:28;;;;;;;;;;;;:::i;:::-;;821:10;841:1;832:6;:10;821:22;;;;;;;;;;;;;;;;;;;;787:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;951:33;;;;;;;;;;;;;;;;;;:15;:22;;:33;;;;1142:15;1117:10;1137:1;1128:6;:10;1117:22;;;;;;;;;;;;;;;;;;;;:40;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;142:1092;;;:::o;26:1210::-;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.18;\n\ncontract SandwichFactory {\n  struct Sandwich {\n    string name;\n    string status;\n  }\n\n  Sandwich[] sandwiches;\n\n  function eatSandwich(uint _index) public {\n    // Sandwich mySandwich = sandwiches[_index];\n\n    // ^ Seems pretty straightforward, but solidity will give you a warning\n    // telling you you should explicitly declare `storage` or `memory` here.\n\n    // So instead, you should declare with the `storage` keyword, like:\n    Sandwich storage mySandwich = sandwiches[_index];\n    // ...in which case `mySandwich` is a pointer to `sandwiches[_index]`\n    // in storage, and...\n    mySandwich.status = \"Eaten!\";\n    // ...this will permanently change `sandwiches[_index]` on the blockchain.\n\n    // If you just want a copy, you can use `memory`:\n    Sandwich memory anotherSandwich = sandwiches[_index + 1];\n    // ...in which case `anotherSandwich` will simply be a copy of the \n    // data in memory, and...\n    anotherSandwich.status = \"Eaten!\";\n    // ...will just modify the temporary variable and have no effect \n    // on `sandwiches[_index + 1]`. But you can do this:\n    sandwiches[_index + 1] = anotherSandwich;\n    // ...if you want to copy the changes back into blockchain storage.\n  }\n}\n",
+  "sourcePath": "/Users/raysapida/tartan/Blockchain/test/contracts/SandwichFactory.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/raysapida/tartan/Blockchain/test/contracts/SandwichFactory.sol",
+      "exportedSymbols": {
+        "SandwichFactory": [
+          106
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 57,
+        "name": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            106
+          ],
+          "name": "SandwichFactory",
+          "scope": 107
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "SandwichFactory.Sandwich",
+              "name": "Sandwich",
+              "scope": 106,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "name",
+                  "scope": 62,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string storage pointer",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string storage pointer"
+                    },
+                    "id": 58,
+                    "name": "ElementaryTypeName",
+                    "src": "77:6:1"
+                  }
+                ],
+                "id": 59,
+                "name": "VariableDeclaration",
+                "src": "77:11:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "status",
+                  "scope": 62,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string storage pointer",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string storage pointer"
+                    },
+                    "id": 60,
+                    "name": "ElementaryTypeName",
+                    "src": "94:6:1"
+                  }
+                ],
+                "id": 61,
+                "name": "VariableDeclaration",
+                "src": "94:13:1"
+              }
+            ],
+            "id": 62,
+            "name": "StructDefinition",
+            "src": "55:57:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "sandwiches",
+              "scope": 106,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "struct SandwichFactory.Sandwich storage ref[] storage ref",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "length": null,
+                  "type": "struct SandwichFactory.Sandwich storage ref[] storage pointer"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "Sandwich",
+                      "referencedDeclaration": 62,
+                      "type": "struct SandwichFactory.Sandwich storage pointer"
+                    },
+                    "id": 63,
+                    "name": "UserDefinedTypeName",
+                    "src": "116:8:1"
+                  }
+                ],
+                "id": 64,
+                "name": "ArrayTypeName",
+                "src": "116:10:1"
+              }
+            ],
+            "id": 65,
+            "name": "VariableDeclaration",
+            "src": "116:21:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "eatSandwich",
+              "payable": false,
+              "scope": 106,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_index",
+                      "scope": 105,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 66,
+                        "name": "ElementaryTypeName",
+                        "src": "163:4:1"
+                      }
+                    ],
+                    "id": 67,
+                    "name": "VariableDeclaration",
+                    "src": "163:11:1"
+                  }
+                ],
+                "id": 68,
+                "name": "ParameterList",
+                "src": "162:13:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 69,
+                "name": "ParameterList",
+                "src": "183:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        71
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "mySandwich",
+                          "scope": 105,
+                          "stateVariable": false,
+                          "storageLocation": "storage",
+                          "type": "struct SandwichFactory.Sandwich storage pointer",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Sandwich",
+                              "referencedDeclaration": 62,
+                              "type": "struct SandwichFactory.Sandwich storage pointer"
+                            },
+                            "id": 70,
+                            "name": "UserDefinedTypeName",
+                            "src": "465:8:1"
+                          }
+                        ],
+                        "id": 71,
+                        "name": "VariableDeclaration",
+                        "src": "465:27:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct SandwichFactory.Sandwich storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 65,
+                              "type": "struct SandwichFactory.Sandwich storage ref[] storage ref",
+                              "value": "sandwiches"
+                            },
+                            "id": 72,
+                            "name": "Identifier",
+                            "src": "495:10:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 67,
+                              "type": "uint256",
+                              "value": "_index"
+                            },
+                            "id": 73,
+                            "name": "Identifier",
+                            "src": "506:6:1"
+                          }
+                        ],
+                        "id": 74,
+                        "name": "IndexAccess",
+                        "src": "495:18:1"
+                      }
+                    ],
+                    "id": 75,
+                    "name": "VariableDeclarationStatement",
+                    "src": "465:48:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "status",
+                              "referencedDeclaration": 61,
+                              "type": "string storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 71,
+                                  "type": "struct SandwichFactory.Sandwich storage pointer",
+                                  "value": "mySandwich"
+                                },
+                                "id": 76,
+                                "name": "Identifier",
+                                "src": "619:10:1"
+                              }
+                            ],
+                            "id": 78,
+                            "name": "MemberAccess",
+                            "src": "619:17:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "456174656e21",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "string",
+                              "type": "literal_string \"Eaten!\"",
+                              "value": "Eaten!"
+                            },
+                            "id": 79,
+                            "name": "Literal",
+                            "src": "639:8:1"
+                          }
+                        ],
+                        "id": 80,
+                        "name": "Assignment",
+                        "src": "619:28:1"
+                      }
+                    ],
+                    "id": 81,
+                    "name": "ExpressionStatement",
+                    "src": "619:28:1"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        83
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "anotherSandwich",
+                          "scope": 105,
+                          "stateVariable": false,
+                          "storageLocation": "memory",
+                          "type": "struct SandwichFactory.Sandwich memory",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Sandwich",
+                              "referencedDeclaration": 62,
+                              "type": "struct SandwichFactory.Sandwich storage pointer"
+                            },
+                            "id": 82,
+                            "name": "UserDefinedTypeName",
+                            "src": "787:8:1"
+                          }
+                        ],
+                        "id": 83,
+                        "name": "VariableDeclaration",
+                        "src": "787:31:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct SandwichFactory.Sandwich storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 65,
+                              "type": "struct SandwichFactory.Sandwich storage ref[] storage ref",
+                              "value": "sandwiches"
+                            },
+                            "id": 84,
+                            "name": "Identifier",
+                            "src": "821:10:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "commonType": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              },
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "operator": "+",
+                              "type": "uint256"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 67,
+                                  "type": "uint256",
+                                  "value": "_index"
+                                },
+                                "id": 85,
+                                "name": "Identifier",
+                                "src": "832:6:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "hexvalue": "31",
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "subdenomination": null,
+                                  "token": "number",
+                                  "type": "int_const 1",
+                                  "value": "1"
+                                },
+                                "id": 86,
+                                "name": "Literal",
+                                "src": "841:1:1"
+                              }
+                            ],
+                            "id": 87,
+                            "name": "BinaryOperation",
+                            "src": "832:10:1"
+                          }
+                        ],
+                        "id": 88,
+                        "name": "IndexAccess",
+                        "src": "821:22:1"
+                      }
+                    ],
+                    "id": 89,
+                    "name": "VariableDeclarationStatement",
+                    "src": "787:56:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string memory"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "status",
+                              "referencedDeclaration": 61,
+                              "type": "string memory"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 83,
+                                  "type": "struct SandwichFactory.Sandwich memory",
+                                  "value": "anotherSandwich"
+                                },
+                                "id": 90,
+                                "name": "Identifier",
+                                "src": "951:15:1"
+                              }
+                            ],
+                            "id": 92,
+                            "name": "MemberAccess",
+                            "src": "951:22:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "456174656e21",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "string",
+                              "type": "literal_string \"Eaten!\"",
+                              "value": "Eaten!"
+                            },
+                            "id": 93,
+                            "name": "Literal",
+                            "src": "976:8:1"
+                          }
+                        ],
+                        "id": 94,
+                        "name": "Assignment",
+                        "src": "951:33:1"
+                      }
+                    ],
+                    "id": 95,
+                    "name": "ExpressionStatement",
+                    "src": "951:33:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "struct SandwichFactory.Sandwich storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "type": "struct SandwichFactory.Sandwich storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 65,
+                                  "type": "struct SandwichFactory.Sandwich storage ref[] storage ref",
+                                  "value": "sandwiches"
+                                },
+                                "id": 96,
+                                "name": "Identifier",
+                                "src": "1117:10:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "commonType": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  },
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "operator": "+",
+                                  "type": "uint256"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 67,
+                                      "type": "uint256",
+                                      "value": "_index"
+                                    },
+                                    "id": 97,
+                                    "name": "Identifier",
+                                    "src": "1128:6:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "hexvalue": "31",
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": true,
+                                      "lValueRequested": false,
+                                      "subdenomination": null,
+                                      "token": "number",
+                                      "type": "int_const 1",
+                                      "value": "1"
+                                    },
+                                    "id": 98,
+                                    "name": "Literal",
+                                    "src": "1137:1:1"
+                                  }
+                                ],
+                                "id": 99,
+                                "name": "BinaryOperation",
+                                "src": "1128:10:1"
+                              }
+                            ],
+                            "id": 100,
+                            "name": "IndexAccess",
+                            "src": "1117:22:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 83,
+                              "type": "struct SandwichFactory.Sandwich memory",
+                              "value": "anotherSandwich"
+                            },
+                            "id": 101,
+                            "name": "Identifier",
+                            "src": "1142:15:1"
+                          }
+                        ],
+                        "id": 102,
+                        "name": "Assignment",
+                        "src": "1117:40:1"
+                      }
+                    ],
+                    "id": 103,
+                    "name": "ExpressionStatement",
+                    "src": "1117:40:1"
+                  }
+                ],
+                "id": 104,
+                "name": "Block",
+                "src": "183:1051:1"
+              }
+            ],
+            "id": 105,
+            "name": "FunctionDefinition",
+            "src": "142:1092:1"
+          }
+        ],
+        "id": 106,
+        "name": "ContractDefinition",
+        "src": "26:1210:1"
+      }
+    ],
+    "id": 107,
+    "name": "SourceUnit",
+    "src": "0:1237:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-14T17:11:28.077Z"
+}
